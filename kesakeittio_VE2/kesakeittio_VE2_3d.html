@@ -201,7 +201,7 @@
   };
 
   const groups = {};
-  ['exist', 'mainroof', 'cover', 'trim', 'battens', 'rafters', 'beams', 'posts', 'brace', 'rearframe', 'clad', 'glazing', 'deck', 'frame', 'foot', 'terKeep', 'terCut'].forEach(k => { groups[k] = new THREE.Group(); scene.add(groups[k]); });
+  ['exist', 'mainroof', 'cover', 'trim', 'battens', 'rafters', 'beams', 'posts', 'brace', 'rearframe', 'clad', 'glazing', 'deck', 'frame', 'foot', 'terKeep', 'terCut', 'deckKeepRows'].forEach(k => { groups[k] = new THREE.Group(); scene.add(groups[k]); });
 
   // mm (x pituus, y poikittain, z korkeus) -> three (X, Y ylös, Z = -y)
   const V = (x, y, z) => new THREE.Vector3(x / 1000, z / 1000, -y / 1000);
@@ -297,8 +297,6 @@
   else {
     box(E, 5465, 6305, 0, GW_Y - 45, 0, 165, mat.deck);
     box(groups.terKeep, 5465, 6305, GW_Y - 45, 1600, 0, 165, mat.deck);          // VE2B: terassi säilyy
-    for (let y = GW_Y + 45; y < 1600; y += 125)                                    // VE2A: kansi betonin päälle
-      box(groups.terCut, 5465, SLAB_X1, y, Math.min(y + 120, 1600), 0, 28, mat.deck);
   }
   box(E, 2630, 5465, 0, 1290, 0, 165, mat.deck);
   [4110, 5400].forEach(x => box(E, x - 55, x + 55, -55, 55, 165, 1900, mat.stain));
@@ -320,7 +318,12 @@
   const D = groups.deck;
   for (let y = FY0; y < FY1 - 1; y += 125) {
     const x0 = y < TERR_Y ? STRIP_X0 : (y < TSLAB_Y1 ? SLAB_X1 : WALL_J);
-    box(D, x0, KX1, y, Math.min(y + 120, FY1), 0, 28, mat.deck);          // kansi +0.028
+    const y1 = Math.min(y + 120, FY1);
+    if (VE2 && y >= GW_Y - 45 && y < TSLAB_Y1) {
+      // lasiseinän sisäpuolen terassikaista: VE2B laudat laatan päädystä, VE2A yhtenäiset laudat J-päädystä
+      box(groups.deckKeepRows, x0, KX1, y, y1, 0, 28, mat.deck);
+      box(groups.terCut, WALL_J, KX1, y, y1, 0, 28, mat.deck);
+    } else box(D, x0, KX1, y, y1, 0, 28, mat.deck);                     // kansi +0.028
   }
   const F = groups.frame;
   LONG_Y.forEach(y => {
@@ -505,6 +508,7 @@
     boxes.forEach(el => { groups[el.dataset.g].visible = el.checked; });
     groups.terKeep.visible = VE2 && terRadio() === 'keep' && groups.exist.visible;
     groups.terCut.visible = VE2 && terRadio() === 'cut' && groups.deck.visible;
+    groups.deckKeepRows.visible = VE2 && terRadio() === 'keep' && groups.deck.visible;
     const t = document.getElementById('ve-name');
     if (t && VE2) t.textContent = terRadio() === 'cut' ? 'VE2A' : 'VE2B';
   };
