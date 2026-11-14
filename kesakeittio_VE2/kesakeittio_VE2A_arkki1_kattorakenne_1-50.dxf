@@ -489,7 +489,7 @@ $SKPOLY
   9
 $TDCREATE
  40
-2461359.3771990743
+2461359.5671759257
   9
 $TDUCREATE
  40
@@ -497,7 +497,7 @@ $TDUCREATE
   9
 $TDUPDATE
  40
-2461359.3771990743
+2461359.5671759257
   9
 $TDUUPDATE
  40
@@ -929,11 +929,11 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{B5993E5F-7999-4DB6-802B-588A350590E4}
+{D7FB19D8-3721-49D8-9490-40FD2EC01BA2}
   9
 $VERSIONGUID
   2
-{C356ADE5-AEE0-409D-94DA-F5BF3DA04EBE}
+{3A148089-2442-4377-8BEA-D6E157418209}
   9
 $EXTNAMES
 290
@@ -1323,9 +1323,9 @@ ISM
   0
 CLASS
   1
-ACDBPLACEHOLDER
+LAYOUT
   2
-AcDbPlaceHolder
+AcDbLayout
   3
 ObjectDBX Classes
  90
@@ -1339,9 +1339,9 @@ ObjectDBX Classes
   0
 CLASS
   1
-LAYOUT
+ACDBPLACEHOLDER
   2
-AcDbLayout
+AcDbPlaceHolder
   3
 ObjectDBX Classes
  90
@@ -9491,7 +9491,7 @@ AcDbText
  40
 175.0
   1
-KESÄKEITTIÖ ±0.000
+KESÄKEITTIÖ +0.028
   7
 OpenSans
  72
@@ -9707,7 +9707,7 @@ AcDbText
  40
 125.0
   1
-porraskaista ±0.000, 5 x 28x120
+porraskaista +0.028, 5 x 28x120
   7
 OpenSans
  72
@@ -13093,7 +13093,7 @@ AcDbText
  40
 125.0
   1
-LATTIA ±0.000 (= pohjalaatan yläpinta)
+LATTIA +0.028 (runko pohjalaatan yläpinnan tasossa ±0.000)
   7
 OpenSans
  11
@@ -13423,7 +13423,7 @@ AcDbText
  40
 97.5
   1
-  (yläpinta n. +0.028, liitos keittiön lattiaan viisteellä)
+  (yläpinta +0.028, sama kuin keittiön lattia)
   7
 OpenSans
  11
@@ -13787,7 +13787,7 @@ AcDbText
  40
 97.5
   1
-  aukko n. 1205 x 2299, avautuu viereisen lasin eteen
+  aukko n. 1205 x 2271, avautuu viereisen lasin eteen
   7
 OpenSans
  11
@@ -16179,7 +16179,7 @@ DictionaryVariables
 280
 0
   1
-1.4.5 @ 2026-11-14T07:03:10.139066+00:00
+1.4.5 @ 2026-11-14T11:36:44.130359+00:00
   0
 VISUALSTYLE
   5
@@ -17019,7 +17019,7 @@ DictionaryVariables
 280
 0
   1
-1.4.5 @ 2026-11-14T07:03:10.248788+00:00
+1.4.5 @ 2026-11-14T11:36:44.161285+00:00
   0
 ENDSEC
   0

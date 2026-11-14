@@ -489,7 +489,7 @@ $SKPOLY
   9
 $TDCREATE
  40
-2461359.3772453703
+2461359.567199074
   9
 $TDUCREATE
  40
@@ -497,7 +497,7 @@ $TDUCREATE
   9
 $TDUPDATE
  40
-2461359.3772453703
+2461359.567199074
   9
 $TDUUPDATE
  40
@@ -929,11 +929,11 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{7768FA5F-8BD0-488E-9F7C-C9F222B54C13}
+{90D11539-1F36-4D54-A379-777F0E7DFEA0}
   9
 $VERSIONGUID
   2
-{F1AB47EA-7C90-4F54-89CE-A9F2B2CE4901}
+{D0C05A0F-A3DA-44CD-8113-9A24FCAE9678}
   9
 $EXTNAMES
 290
@@ -1323,9 +1323,9 @@ ISM
   0
 CLASS
   1
-LAYOUT
+ACDBPLACEHOLDER
   2
-AcDbLayout
+AcDbPlaceHolder
   3
 ObjectDBX Classes
  90
@@ -1339,9 +1339,9 @@ ObjectDBX Classes
   0
 CLASS
   1
-ACDBPLACEHOLDER
+LAYOUT
   2
-AcDbPlaceHolder
+AcDbLayout
   3
 ObjectDBX Classes
  90
@@ -9459,7 +9459,7 @@ AcDbText
  40
 175.0
   1
-KESÄKEITTIÖ ±0.000
+KESÄKEITTIÖ +0.028
   7
 OpenSans
  72
@@ -9675,7 +9675,7 @@ AcDbText
  40
 125.0
   1
-porraskaista ±0.000, 5 x 28x120
+porraskaista +0.028, 5 x 28x120
   7
 OpenSans
  72
@@ -13027,7 +13027,7 @@ AcDbText
  40
 125.0
   1
-LATTIA ±0.000 (= pohjalaatan yläpinta)
+LATTIA +0.028 (runko pohjalaatan yläpinnan tasossa ±0.000)
   7
 OpenSans
  11
@@ -13687,7 +13687,7 @@ AcDbText
  40
 97.5
   1
-  aukko n. 1205 x 2299, avautuu viereisen lasin eteen
+  aukko n. 1205 x 2271, avautuu viereisen lasin eteen
   7
 OpenSans
  11
@@ -16079,7 +16079,7 @@ DictionaryVariables
 280
 0
   1
-1.4.5 @ 2026-11-14T07:03:14.541674+00:00
+1.4.5 @ 2026-11-14T11:36:46.126966+00:00
   0
 VISUALSTYLE
   5
@@ -16919,7 +16919,7 @@ DictionaryVariables
 280
 0
   1
-1.4.5 @ 2026-11-14T07:03:14.686802+00:00
+1.4.5 @ 2026-11-14T11:36:46.233851+00:00
   0
 ENDSEC
   0

@@ -69,7 +69,8 @@ STRIP = 5 * (BOARD + GAP)       # porraskaista 625
 FY0, FY1 = TERR_Y - STRIP, FACE_E
 STRIP_X0 = 2430
 JOIST = 123
-FLOOR_BOT = -DECK - JOIST       # -151
+FLOOR_TOP = DECK                # +0.028 kansilaudan yläpinta
+FLOOR_BOT = -JOIST              # -0.123: rungon yläpinta = pohjalaatan yläpinta ±0.000
 P = 115                         # liimapuupilari 115x115
 PF, PR = FACE_B + P / 2, FACE_E - P / 2
 PU1, PU2 = (PF + YC) / 2, (PR + YC) / 2
@@ -392,7 +393,7 @@ NOTES_PURKU = """#PURETAAN
 - Päätyportaat"""
 if TER_CUT:
     NOTES_PURKU += "\n- Terassin runko ja kansi lasiseinän sisäpuolelta (betonilaatta jää)"
-NOTES_LATTIA = """#LATTIA ±0.000 (= pohjalaatan yläpinta)
+NOTES_LATTIA = """#LATTIA +0.028 (runko pohjalaatan yläpinnan tasossa ±0.000)
 - Kansilauta 28x120 kyll., rako 5, pituussuuntaan
 - Pituuspalkit 2x48x123 kyll., poikkipalkit 48x123 k500 väliin
 - Porraskaista terassin edessä 5 lautaa = 625, koko pituudelta
@@ -403,7 +404,7 @@ if VE2:
     NOTES_LATTIA += "\n- Pituuspalkki lasiseinän alle (y 1046)"
 if TER_CUT:
     NOTES_LATTIA += ("\n- Katkaistun terassin kohdalla kansilaudoitus suoraan betonilaatan päälle"
-                     "\n  (yläpinta n. +0.028, liitos keittiön lattiaan viisteellä)")
+                     "\n  (yläpinta +0.028, sama kuin keittiön lattia)")
 if VE == "2B":
     NOTES_LATTIA += "\n- Terassi säilyy: lasiseinän sisäpuolelle korotettu taso +0.165, n. 840 x 510"
 if not VE2:
@@ -429,7 +430,7 @@ else:
   välipalkki ylähirtenä, kantamaton karmirunko 90x90 liimapuu,
   3 moduulia, turvalasi, aloitustolppa J-päädyn hirsiä vasten
 - Liukuovi keskimmäisessä moduulissa, ovilehti ulkopuolisella kiskolla,
-  aukko n. {round(GW_MOD)} x {round(GW_DOOR_TOP - 10)}, avautuu viereisen lasin eteen
+  aukko n. {round(GW_MOD)} x {round(GW_DOOR_TOP - FLOOR_TOP - 10)}, avautuu viereisen lasin eteen
 - Päätyseinä lasitettu välipalkista takanurkkaan, etummainen väli avoin
 - Lasiseinän edessä avoin katos (terassi ja porraskaista)"""
 NOTES = NOTES_PURKU + "\n" + NOTES_LATTIA + "\n" + NOTES_SEINAT + """
@@ -515,7 +516,7 @@ v1.text("tuulisiteet X 40x2", BR_XM, 2600, h=TH * 0.85, layer="K-BRACE", align=T
 v1.text("vasat 48x98 k900, valokate", WALL_J + 250, 3650, layer="K-RAFTER")
 v1.text("harja- ja välipalkit hirsipäätyyn teräskannakkeilla", 5350, 3350, h=TH * 0.8,
         layer="K-STEEL", align=TA.BOTTOM_RIGHT)
-v1.text("KESÄKEITTIÖ ±0.000", 8300, 1500, h=TH_T, layer="K-FLOOR", align=TA.MIDDLE_CENTER)
+v1.text("KESÄKEITTIÖ +0.028", 8300, 1500, h=TH_T, layer="K-FLOOR", align=TA.MIDDLE_CENTER)
 if not VE2:
     v1.text("lasitus", (PX[1] + PX[3]) / 2, -380, layer="K-GLASS", align=TA.MIDDLE_CENTER)
     v1.text("liukuovi", (PX[0] + PX[1]) / 2, -470, h=TH * 0.8, layer="K-GLASS", align=TA.MIDDLE_CENTER)
@@ -533,7 +534,7 @@ else:
                 align=TA.MIDDLE_CENTER)
 v1.text("takaseinä umpi koko korkeudelta, pääty lasitettu", 8300, PR - 450, layer="K-WALL",
         align=TA.BOTTOM_CENTER)
-v1.text("porraskaista ±0.000, 5 x 28x120", 4300, FY0 + 220, layer="K-FLOOR", align=TA.MIDDLE_CENTER)
+v1.text("porraskaista +0.028, 5 x 28x120", 4300, FY0 + 220, layer="K-FLOOR", align=TA.MIDDLE_CENTER)
 # mitat
 v1.chain_h([WALL_J, KX1], FY1, FY1 + 1150, ["4000"])
 v1.chain_h([X_IN] + PXR[1:], FY1, FY1 + 750)
@@ -635,7 +636,7 @@ v2.chain_h([WALL_J, X_IN] + FOOT_X, FY1, FY1 + 450)
 v2.chain_h([STRIP_X0] + STRIP_FOOT_X[1:], FY0, FY0 - 450)
 v2.chain_v(KX1, LONG_Y, KX1 + 600)
 title("2  LATTIARUNKO JA PERUSTUKSET 1:50", 750, 13900,
-      "lattian yläpinta ±0.000 = pohjalaatan yläpinta, palkkien yläpinta -0.028")
+      "rungon yläpinta ±0.000 = pohjalaatan yläpinta, lattia (kansilauta) +0.028")
 
 # ================================================================ korkeusnäkymien osat
 def roof_band_gable(v):
@@ -680,8 +681,8 @@ v3 = View(14800, 9550)
 v3.line((-1800, GROUND), (5300, GROUND), "K-EXIST")
 main_roof_gable(v3)
 v3.rect(TERR_Y, 0, FACE_B, 165, "K-EXIST")
-v3.rect(FY0, FLOOR_BOT, FY1, 0, "K-FLOOR")
-v3.line((FY0, -DECK), (FY1, -DECK), "K-FLOOR")
+v3.rect(FY0, FLOOR_BOT, FY1, FLOOR_TOP, "K-FLOOR")
+v3.line((FY0, 0), (FY1, 0), "K-FLOOR")
 for y, h, _ in BEAMS:
     t = beam_top(y)
     v3.rect(y - BW_OF[h] / 2, t - h, y + BW_OF[h] / 2, t, "K-BEAM")
@@ -691,7 +692,7 @@ for y, h, _ in BEAMS:
 under = lambda y: ktop(y) - ROOF_BUILD                       # vasojen alapinta päätylinjassa
 for i, (a, b) in enumerate(zip(PY_END, PY_END[1:])):
     if not (VE2 and i == 0):
-        glass_elev(v3, a + P / 2, b - P / 2, under(a + P / 2), under(b - P / 2))
+        glass_elev(v3, a + P / 2, b - P / 2, under(a + P / 2), under(b - P / 2), z0=FLOOR_TOP)
 roof_band_gable(v3)
 post_top = {y: beam_top(y) - h for y, h, _ in BEAMS}
 for i, j in ROD_BAYS:                                   # vetotangot ristiin uloimmissa väleissä
@@ -700,7 +701,8 @@ for i, j in ROD_BAYS:                                   # vetotangot ristiin ulo
     v3.line((a, 150), (b, zt), "K-BRACE")
     v3.line((a, zt), (b, 150), "K-BRACE")
 v3.text("vetotangot ø12", (PY_END[3] + PY_END[4]) / 2, 1100, h=TH * 0.8, layer="K-BRACE", align=TA.BOTTOM_CENTER)
-v3.level(-1700, 0, "±0.000", 700)
+v3.level(-1700, 0, "±0.000 laatta", 700)
+v3.level(5000, FLOOR_TOP, "+0.028 lattia", 500)
 v3.level(-1700, K_RIDGE, f"+{K_RIDGE / 1000:.3f}".replace(".", ","), 700)
 v3.level(-1700, MAIN_RIDGE, "N+3,300", 700)
 v3.level(-1700, round(EDGE_BOT), f"+{EDGE_BOT / 1000:.3f}".replace(".", ",") + " reunapalkin alapinta", 700)
@@ -730,8 +732,8 @@ v4.text("SAUNA (olemassa oleva, ks. sauna_julkisivut_1-50)", 2700, 1000, layer="
 v4.rect(2630, 0, 3590, 165, "K-EXIST")
 v4.rect(3590, 0, SLAB_X1, 165, "K-EXIST")
 v4.rect(STRIP_X0, 0, 2630, 165, "K-FLOOR")
-v4.rect(STRIP_X0, FLOOR_BOT, KX1, 0, "K-FLOOR")
-v4.line((STRIP_X0, -DECK), (KX1, -DECK), "K-FLOOR")
+v4.rect(STRIP_X0, FLOOR_BOT, KX1, FLOOR_TOP, "K-FLOOR")
+v4.line((STRIP_X0, 0), (KX1, 0), "K-FLOOR")
 eave = ktop(EAVE_Y0)
 v4.rect(6410, eave - ROOF_BUILD, RX1, eave, "K-ROOF")
 v4.pl([(6410, eave), (6410, K_RIDGE), (RX1, K_RIDGE), (RX1, eave)], "K-ROOF")
@@ -742,16 +744,16 @@ for x in PXF:
 if not VE2:
     for i, (a, b) in enumerate(zip(PX, PX[1:])):
         if i != DOOR_BAY:
-            glass_elev(v4, a + P / 2, b - P / 2, EDGE_BOT, EDGE_BOT)
+            glass_elev(v4, a + P / 2, b - P / 2, EDGE_BOT, EDGE_BOT, z0=FLOOR_TOP)
     glass_elev(v4, GAP_X0, X_IN - P / 2, EDGE_BOT, EDGE_BOT, z0=165)       # kiinteä lasi terassin päällä
     # liukuovi (ovilehti pilarien edessä, yläkisko reunapalkin alapinnassa)
     a, b = PX[DOOR_BAY] + P / 2 - 30, PX[DOOR_BAY + 1] - P / 2 + 30
     DOOR_TOP = EDGE_BOT - 60
     v4.rect(a - 40, DOOR_TOP, b + (b - a) + P + 40, EDGE_BOT, "K-GLASS")    # yläkisko
-    glass_elev(v4, a, b, DOOR_TOP, DOOR_TOP, z0=10)
+    glass_elev(v4, a, b, DOOR_TOP, DOOR_TOP, z0=FLOOR_TOP + 10)
     v4.rect(b - 140, 950, b - 110, 1250, "K-GLASS")                          # vedin
     v4.text("liukuovi", (a + b) / 2, DOOR_TOP - 300, h=TH * 0.8, layer="K-GLASS", align=TA.BOTTOM_CENTER)
-    v4.dim_v(a, 10, DOOR_TOP, a - 250, f"{round(DOOR_TOP - 10)}")
+    v4.dim_v(a, FLOOR_TOP + 10, DOOR_TOP, a - 250, f"{round(DOOR_TOP - FLOOR_TOP - 10)}")
 else:
     # lasiseinä taustalla välipalkin linjassa: näkyvä osa reunapalkin alapintaan, yläosa katkoviivalla
     gz0 = 165 if not TER_CUT else 28
@@ -759,21 +761,21 @@ else:
     v4.rect(WALL_J, gz0, WALL_J + MUL, top, "K-GLASS")
     for i, (a, b) in enumerate(GW_MODS):
         if i < 2:
-            v4.rect(b, 0, b + MUL, top, "K-GLASS")
+            v4.rect(b, FLOOR_TOP, b + MUL, top, "K-GLASS")
         if i != GW_DOOR:
-            glass_elev(v4, a, b, top, top, z0=0 if a > SLAB_X1 else gz0)
+            glass_elev(v4, a, b, top, top, z0=FLOOR_TOP if a > SLAB_X1 else gz0)
         v4.line((a, PURL_BOT), (b, PURL_BOT), "K-HIDDEN")
     a, b = GW_MODS[GW_DOOR]
     a, b = a - 30, b + 30
-    glass_elev(v4, a, b, top, top, z0=10)
+    glass_elev(v4, a, b, top, top, z0=FLOOR_TOP + 10)
     v4.line((a, GW_DOOR_TOP), (b, GW_DOOR_TOP), "K-HIDDEN")
     v4.rect(b - 140, 950, b - 110, 1250, "K-GLASS")
     v4.text("liukuovi", (a + b) / 2, 1500, h=TH * 0.8, layer="K-GLASS", align=TA.BOTTOM_CENTER)
     v4.text("lasiseinä taustalla (y 1046)", (GW_MODS[2][0] + GW_MODS[2][1]) / 2, 1500, h=TH * 0.7,
             layer="K-GLASS", align=TA.BOTTOM_CENTER)
-    v4.dim_v(a, 10, GW_DOOR_TOP, a - 250, f"{round(GW_DOOR_TOP - 10)}")
+    v4.dim_v(a, FLOOR_TOP + 10, GW_DOOR_TOP, a - 250, f"{round(GW_DOOR_TOP - FLOOR_TOP - 10)}")
     v4.chain_h([WALL_J] + [m for ab in GW_MODS for m in ab] + [X_OUT + P / 2], 0, -1600)
-v4.level(KX1 + 200, 0, "±0.000")
+v4.level(KX1 + 200, FLOOR_TOP, "+0.028 lattia")
 v4.level(KX1 + 200, round(eave), f"+{eave / 1000:.3f} räystäs".replace(".", ","))
 v4.level(KX1 + 200, K_RIDGE, f"+{K_RIDGE / 1000:.3f}".replace(".", ","))
 v4.chain_h(PXF, 0, -700)
@@ -790,8 +792,8 @@ v5.rect(-230, 0, 5630, 2010, "K-EXIST")
 v5.rect(-600, 2010, 6000, 2150, "K-EXIST")
 v5.pl([(-600, 2150), (-600, MAIN_RIDGE), (6000, MAIN_RIDGE), (6000, 2150)], "K-EXIST")
 v5.text("SAUNA (olemassa oleva)", 2700, 1000, layer="K-EXIST", align=TA.MIDDLE_CENTER)
-v5.rect(WALL_J, FLOOR_BOT, KX1, 0, "K-FLOOR")
-v5.line((WALL_J, -DECK), (KX1, -DECK), "K-FLOOR")
+v5.rect(WALL_J, FLOOR_BOT, KX1, FLOOR_TOP, "K-FLOOR")
+v5.line((WALL_J, 0), (KX1, 0), "K-FLOOR")
 v5.rect(6000, eave - ROOF_BUILD, RX1, eave, "K-ROOF")
 v5.pl([(6000, eave), (6000, K_RIDGE), (RX1, K_RIDGE), (RX1, eave)], "K-ROOF")
 v5.rect(RX1 - 48, eave, RX1, K_RIDGE, "K-ROOF")
@@ -799,7 +801,7 @@ v5.rect(6000, EDGE_BOT, RX1 - 48, beam_top(PR), "K-BEAM")
 cladding(v5, LOG_END, KX1, beam_top(PR))                        # ulkoverhous pilarien ja palkin ulkopuolella
 for x in PXR:
     v5.rect(x - P / 2, 0, x + P / 2, EDGE_BOT, "K-HIDDEN")
-v5.level(KX1 + 200, 0, "±0.000")
+v5.level(KX1 + 200, FLOOR_TOP, "+0.028 lattia")
 v5.level(KX1 + 200, K_RIDGE, f"+{K_RIDGE / 1000:.3f}".replace(".", ","))
 v5.chain_h([X_IN] + PX[1:], 0, -700)
 v5.dim_v(KX1, 0, beam_top(PR), KX1 + 900)
