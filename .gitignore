@@ -1,0 +1,5 @@
+# LibreCADin automaattiset varmuuskopiot
+\#*
+*.bak
+__pycache__/
+*.pyc

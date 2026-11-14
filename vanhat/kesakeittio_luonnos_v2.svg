@@ -1,0 +1,331 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1600 2020" font-family="Segoe UI, Arial, sans-serif">
+<rect width="1600" height="2020" fill="white"/>
+<text x="40.0" y="44.2" font-size="16" fill="#222" text-anchor="start" font-weight="600">1  POHJA – kattorakenne ja pilarit (luonnos v2)</text>
+<polygon points="775.2,759.3 1195.2,759.3 1195.2,168.7 775.2,168.7" fill="#e1f5ee" stroke="#0a6e56" stroke-width="1.5"/>
+<polygon points="368.6,759.3 775.2,759.3 775.2,693.7 368.6,693.7" fill="#faeeda" stroke="#8a6d00" stroke-width="1.0"/>
+<polygon points="687.3,448.5 775.2,448.5 775.2,168.7 687.3,168.7" fill="#e1f5ee" stroke="#0a6e56" stroke-width="0.8" stroke-dasharray="6 3"/>
+<text x="730.9" y="301.5" font-size="10" fill="#0a6e56" text-anchor="middle">laatta ±0.000</text>
+<polygon points="389.6,616.5 389.6,693.7 775.5,693.7 775.5,448.5 687.3,448.5 687.3,616.5" fill="#eeeeee" stroke="#555" stroke-width="1.0"/>
+<text x="575.5" y="663.8" font-size="10" fill="#555" text-anchor="middle">terassi +0.165 (kaide pois)</text>
+<polygon points="368.6,706.8 490.4,706.8 490.4,622.8 368.6,622.8" fill="none" stroke="#d4537e" stroke-width="1.0" stroke-dasharray="4 3"/>
+<text x="429.6" y="658.5" font-size="10" fill="#d4537e" text-anchor="middle">etuportaat pois – tilalle? (A)</text>
+<polygon points="687.9,448.5 775.0,448.5 775.0,366.6 687.9,366.6" fill="none" stroke="#c0392b" stroke-width="0.8" stroke-dasharray="4 3"/>
+<text x="731.4" y="359.2" font-size="9" fill="#c0392b" text-anchor="middle">päätyportaat pois</text>
+<text x="575.5" y="738.3" font-size="10" fill="#8a6d00" text-anchor="middle">porraskaista ±0.000, 5 lautaa = 625</text>
+<polygon points="106.7,623.3 687.3,623.3 687.3,168.7 106.7,168.7" fill="none" stroke="#555" stroke-width="2.2"/>
+<polygon points="120.3,609.7 673.7,609.7 673.7,182.3 120.3,182.3" fill="none" stroke="#555" stroke-width="0.6"/>
+<polyline points="365.5,609.7 365.5,182.3" fill="none" stroke="#555" stroke-width="0.6"/>
+<polyline points="372.3,474.8 673.7,474.8" fill="none" stroke="#555" stroke-width="0.6"/>
+<text x="397.0" y="354.0" font-size="14" fill="#555" text-anchor="middle" font-weight="600">SAUNA</text>
+<polygon points="50.5,679.5 50.5,112.5 743.5,112.5 743.5,444.8 786.5,444.8 786.5,707.9 347.1,707.9 347.1,679.5" fill="none" stroke="#555" stroke-width="0.6" stroke-dasharray="10 4 2 4"/>
+<text x="790.8" y="721.5" font-size="9" fill="#555" text-anchor="start">nyk. räystäs / kuistin katto säilyy</text>
+<polygon points="722.5,679.5 1247.7,679.5 1247.7,112.5 722.5,112.5" fill="none" stroke="#3c3489" stroke-width="0.9" stroke-dasharray="10 4 2 4"/>
+<polyline points="722.5,617.3 1205.7,617.3" fill="none" stroke="#3c3489" stroke-width="1.8" stroke-dasharray="8 4"/>
+<text x="985.0" y="608.9" font-size="9" fill="#3c3489" text-anchor="middle">reunapalkki 115×135</text>
+<polyline points="722.5,506.6 1205.7,506.6" fill="none" stroke="#3c3489" stroke-width="1.8" stroke-dasharray="8 4"/>
+<text x="985.0" y="498.2" font-size="9" fill="#3c3489" text-anchor="middle">välipalkki 115×225</text>
+<polyline points="722.5,396.0 1205.7,396.0" fill="none" stroke="#3c3489" stroke-width="1.8" stroke-dasharray="8 4"/>
+<text x="985.0" y="387.6" font-size="9" fill="#3c3489" text-anchor="middle">harjapalkki 115×225</text>
+<polyline points="722.5,285.4 1205.7,285.4" fill="none" stroke="#3c3489" stroke-width="1.8" stroke-dasharray="8 4"/>
+<text x="985.0" y="277.0" font-size="9" fill="#3c3489" text-anchor="middle">välipalkki 115×225</text>
+<polyline points="722.5,174.7 1205.7,174.7" fill="none" stroke="#3c3489" stroke-width="1.8" stroke-dasharray="8 4"/>
+<text x="985.0" y="166.3" font-size="9" fill="#3c3489" text-anchor="middle">reunapalkki 115×135</text>
+<polyline points="1245.2,679.5 1245.2,112.5" fill="none" stroke="#3c3489" stroke-width="0.5" stroke-dasharray="3 3"/>
+<polyline points="1150.7,679.5 1150.7,112.5" fill="none" stroke="#3c3489" stroke-width="0.5" stroke-dasharray="3 3"/>
+<polyline points="1056.2,679.5 1056.2,112.5" fill="none" stroke="#3c3489" stroke-width="0.5" stroke-dasharray="3 3"/>
+<polyline points="961.7,679.5 961.7,112.5" fill="none" stroke="#3c3489" stroke-width="0.5" stroke-dasharray="3 3"/>
+<polyline points="867.2,679.5 867.2,112.5" fill="none" stroke="#3c3489" stroke-width="0.5" stroke-dasharray="3 3"/>
+<polyline points="772.7,679.5 772.7,112.5" fill="none" stroke="#3c3489" stroke-width="0.5" stroke-dasharray="3 3"/>
+<text x="1103.4" y="103.0" font-size="9" fill="#3c3489" text-anchor="middle">vasat 48×98 k900</text>
+<polygon points="775.2,623.3 787.3,623.3 787.3,611.2 775.2,611.2" fill="#0a6e56" stroke="#0a6e56" stroke-width="1"/>
+<polygon points="775.2,180.8 787.3,180.8 787.3,168.7 775.2,168.7" fill="#0a6e56" stroke="#0a6e56" stroke-width="1"/>
+<polygon points="911.2,623.3 923.3,623.3 923.3,611.2 911.2,611.2" fill="#0a6e56" stroke="#0a6e56" stroke-width="1"/>
+<polygon points="911.2,180.8 923.3,180.8 923.3,168.7 911.2,168.7" fill="#0a6e56" stroke="#0a6e56" stroke-width="1"/>
+<polygon points="1047.2,623.3 1059.2,623.3 1059.2,611.2 1047.2,611.2" fill="#0a6e56" stroke="#0a6e56" stroke-width="1"/>
+<polygon points="1047.2,180.8 1059.2,180.8 1059.2,168.7 1047.2,168.7" fill="#0a6e56" stroke="#0a6e56" stroke-width="1"/>
+<polygon points="1183.1,623.3 1195.2,623.3 1195.2,611.2 1183.1,611.2" fill="#0a6e56" stroke="#0a6e56" stroke-width="1"/>
+<polygon points="1183.1,180.8 1195.2,180.8 1195.2,168.7 1183.1,168.7" fill="#0a6e56" stroke="#0a6e56" stroke-width="1"/>
+<polygon points="1183.1,512.7 1195.2,512.7 1195.2,500.6 1183.1,500.6" fill="#0a6e56" stroke="#0a6e56" stroke-width="1"/>
+<polygon points="775.2,512.7 787.3,512.7 787.3,500.6 775.2,500.6" fill="white" stroke="#d4537e" stroke-width="1.2"/>
+<polygon points="1183.1,402.0 1195.2,402.0 1195.2,390.0 1183.1,390.0" fill="#0a6e56" stroke="#0a6e56" stroke-width="1"/>
+<polygon points="775.2,402.0 787.3,402.0 787.3,390.0 775.2,390.0" fill="white" stroke="#d4537e" stroke-width="1.2"/>
+<polygon points="1183.1,291.4 1195.2,291.4 1195.2,279.3 1183.1,279.3" fill="#0a6e56" stroke="#0a6e56" stroke-width="1"/>
+<polygon points="775.2,291.4 787.3,291.4 787.3,279.3 775.2,279.3" fill="white" stroke="#d4537e" stroke-width="1.2"/>
+<text x="793.8" y="459.0" font-size="9" fill="#d4537e" text-anchor="start">sisäpään välipilarit? (B)</text>
+<polyline points="781.2,166.8 1197.3,166.8 1197.3,617.3" fill="none" stroke="#0a6e56" stroke-width="3.0"/>
+<text x="985.0" y="100.4" font-size="10" fill="#0a6e56" text-anchor="middle">taka + pääty: alaosa umpi, yläosa avoin</text>
+<text x="985.0" y="656.4" font-size="10" fill="#0a6e56" text-anchor="middle">etusivu avoin</text>
+<text x="985.0" y="354.0" font-size="13" fill="#0a6e56" text-anchor="middle" font-weight="600">KESÄKEITTIÖ ±0.000</text>
+<polyline points="106.7,774.0 106.7,753.0" fill="none" stroke="#0a6e56" stroke-width="0.6"/>
+<polyline points="92.5,623.3 1289.7,623.3" fill="none" stroke="#0a6e56" stroke-width="0.4" stroke-dasharray="2 4"/>
+<text x="1295.0" y="627.5" font-size="9" fill="#0a6e56" text-anchor="start">etuseinälinja = seinän B ulkopinta</text>
+<polyline points="775.2,47.9 1195.2,47.9" fill="none" stroke="#8a6d00" stroke-width="0.7"/>
+<polyline points="775.2,168.7 775.2,47.9" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="768.9,54.2 781.5,41.6" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<polyline points="1195.2,168.7 1195.2,47.9" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="1188.9,54.2 1201.5,41.6" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<text x="985.2" y="41.6" font-size="11" fill="#8a6d00" text-anchor="middle">4000</text>
+<polyline points="781.2,89.9 917.2,89.9" fill="none" stroke="#8a6d00" stroke-width="0.7"/>
+<polyline points="781.2,168.7 781.2,89.9" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="774.9,96.2 787.5,83.6" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<polyline points="917.2,168.7 917.2,89.9" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="910.9,96.2 923.5,83.6" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<text x="849.2" y="83.6" font-size="11" fill="#8a6d00" text-anchor="middle">1295</text>
+<polyline points="917.2,89.9 1053.2,89.9" fill="none" stroke="#8a6d00" stroke-width="0.7"/>
+<polyline points="917.2,168.7 917.2,89.9" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="910.9,96.2 923.5,83.6" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<polyline points="1053.2,168.7 1053.2,89.9" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="1046.9,96.2 1059.5,83.6" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<text x="985.2" y="83.6" font-size="11" fill="#8a6d00" text-anchor="middle">1295</text>
+<polyline points="1053.2,89.9 1189.2,89.9" fill="none" stroke="#8a6d00" stroke-width="0.7"/>
+<polyline points="1053.2,168.7 1053.2,89.9" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="1046.9,96.2 1059.5,83.6" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<polyline points="1189.2,168.7 1189.2,89.9" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="1182.9,96.2 1195.5,83.6" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<text x="1121.2" y="83.6" font-size="11" fill="#8a6d00" text-anchor="middle">1295</text>
+<polyline points="1337.0,759.3 1337.0,168.7" fill="none" stroke="#8a6d00" stroke-width="0.7"/>
+<polyline points="1195.2,759.3 1337.0,759.3" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="1330.7,765.6 1343.3,753.0" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<polyline points="1195.2,168.7 1337.0,168.7" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="1330.7,175.0 1343.3,162.4" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<text x="1328.6" y="464.0" font-size="11" fill="#8a6d00" text-anchor="middle" transform="rotate(-90 1328.6 464.0)">5625</text>
+<polyline points="1289.7,617.3 1289.7,174.7" fill="none" stroke="#8a6d00" stroke-width="0.7"/>
+<polyline points="1195.2,617.3 1289.7,617.3" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="1283.4,623.6 1296.0,611.0" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<polyline points="1195.2,174.7 1289.7,174.7" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="1283.4,181.0 1296.0,168.4" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<text x="1281.3" y="396.0" font-size="11" fill="#8a6d00" text-anchor="middle" transform="rotate(-90 1281.3 396.0)">4215 k/k</text>
+<polyline points="1242.5,617.3 1242.5,506.6" fill="none" stroke="#8a6d00" stroke-width="0.7"/>
+<polyline points="1195.2,617.3 1242.5,617.3" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="1236.2,623.6 1248.8,611.0" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<polyline points="1195.2,506.6 1242.5,506.6" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="1236.2,512.9 1248.8,500.3" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<text x="1234.1" y="562.0" font-size="11" fill="#8a6d00" text-anchor="middle" transform="rotate(-90 1234.1 562.0)">1054</text>
+<polyline points="1242.5,506.6 1242.5,396.0" fill="none" stroke="#8a6d00" stroke-width="0.7"/>
+<polyline points="1195.2,506.6 1242.5,506.6" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="1236.2,512.9 1248.8,500.3" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<polyline points="1195.2,396.0 1242.5,396.0" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="1236.2,402.3 1248.8,389.7" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<text x="1234.1" y="451.3" font-size="11" fill="#8a6d00" text-anchor="middle" transform="rotate(-90 1234.1 451.3)">1054</text>
+<polyline points="1242.5,396.0 1242.5,285.4" fill="none" stroke="#8a6d00" stroke-width="0.7"/>
+<polyline points="1195.2,396.0 1242.5,396.0" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="1236.2,402.3 1248.8,389.7" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<polyline points="1195.2,285.4 1242.5,285.4" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="1236.2,291.7 1248.8,279.1" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<text x="1234.1" y="340.7" font-size="11" fill="#8a6d00" text-anchor="middle" transform="rotate(-90 1234.1 340.7)">1054</text>
+<polyline points="1242.5,285.4 1242.5,174.7" fill="none" stroke="#8a6d00" stroke-width="0.7"/>
+<polyline points="1195.2,285.4 1242.5,285.4" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="1236.2,291.7 1248.8,279.1" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<polyline points="1195.2,174.7 1242.5,174.7" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="1236.2,181.0 1248.8,168.4" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<text x="1234.1" y="230.0" font-size="11" fill="#8a6d00" text-anchor="middle" transform="rotate(-90 1234.1 230.0)">1054</text>
+<polyline points="1242.5,759.3 1242.5,693.7" fill="none" stroke="#8a6d00" stroke-width="0.7"/>
+<polyline points="1195.2,759.3 1242.5,759.3" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="1236.2,765.6 1248.8,753.0" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<polyline points="1195.2,693.7 1242.5,693.7" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="1236.2,700.0 1248.8,687.4" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<text x="1234.1" y="726.5" font-size="11" fill="#8a6d00" text-anchor="middle" transform="rotate(-90 1234.1 726.5)">625</text>
+<text x="113.5" y="795.0" font-size="11" fill="#b00" text-anchor="middle">G</text>
+<text x="680.5" y="795.0" font-size="11" fill="#b00" text-anchor="middle">J</text>
+<text x="40.0" y="804.2" font-size="16" fill="#222" text-anchor="start" font-weight="600">2  LATTIARUNKO (kansilaudoitus 28×120 kyll. pituussuuntaan)</text>
+<polygon points="106.7,1320.3 687.3,1320.3 687.3,865.7 106.7,865.7" fill="#f6f6f6" stroke="#555" stroke-width="1.2"/>
+<polygon points="106.7,1320.3 775.2,1320.3 775.2,865.7 106.7,865.7" fill="none" stroke="#555" stroke-width="0.6" stroke-dasharray="6 3"/>
+<text x="428.5" y="1103.5" font-size="12" fill="#555" text-anchor="middle">pohjalaatta</text>
+<polygon points="368.6,1456.3 1195.2,1456.3 1195.2,1390.7 368.6,1390.7" fill="#faeeda" stroke="#8a6d00" stroke-width="0.6"/>
+<polygon points="775.2,1390.7 1195.2,1390.7 1195.2,865.7 775.2,865.7" fill="#e1f5ee" stroke="#0a6e56" stroke-width="0.6"/>
+<polygon points="775.2,1458.8 1195.2,1458.8 1195.2,1448.7 775.2,1448.7" fill="#f5c4b3" stroke="#993c1d" stroke-width="0.8"/>
+<polygon points="775.2,1341.7 1195.2,1341.7 1195.2,1331.6 775.2,1331.6" fill="#f5c4b3" stroke="#993c1d" stroke-width="0.8"/>
+<polygon points="775.2,1224.6 1195.2,1224.6 1195.2,1214.5 775.2,1214.5" fill="#f5c4b3" stroke="#993c1d" stroke-width="0.8"/>
+<polygon points="775.2,1107.5 1195.2,1107.5 1195.2,1097.4 775.2,1097.4" fill="#f5c4b3" stroke="#993c1d" stroke-width="0.8"/>
+<polygon points="775.2,990.4 1195.2,990.4 1195.2,980.3 775.2,980.3" fill="#f5c4b3" stroke="#993c1d" stroke-width="0.8"/>
+<polygon points="775.2,873.2 1195.2,873.2 1195.2,863.2 775.2,863.2" fill="#f5c4b3" stroke="#993c1d" stroke-width="0.8"/>
+<polygon points="368.6,1456.3 775.2,1456.3 775.2,1451.3 368.6,1451.3" fill="#f5c4b3" stroke="#993c1d" stroke-width="0.8"/>
+<polygon points="368.6,1395.7 775.2,1395.7 775.2,1390.7 368.6,1390.7" fill="#f5c4b3" stroke="#993c1d" stroke-width="0.8"/>
+<polygon points="775.2,1448.7 780.2,1448.7 780.2,1341.7 775.2,1341.7" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="827.7,1448.7 832.8,1448.7 832.8,1341.7 827.7,1341.7" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="880.2,1448.7 885.2,1448.7 885.2,1341.7 880.2,1341.7" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="932.7,1448.7 937.8,1448.7 937.8,1341.7 932.7,1341.7" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="985.2,1448.7 990.2,1448.7 990.2,1341.7 985.2,1341.7" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="1037.7,1448.7 1042.8,1448.7 1042.8,1341.7 1037.7,1341.7" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="1090.2,1448.7 1095.2,1448.7 1095.2,1341.7 1090.2,1341.7" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="1142.7,1448.7 1147.8,1448.7 1147.8,1341.7 1142.7,1341.7" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="1190.2,1448.7 1195.2,1448.7 1195.2,1341.7 1190.2,1341.7" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="775.2,1331.6 780.2,1331.6 780.2,1224.6 775.2,1224.6" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="827.7,1331.6 832.8,1331.6 832.8,1224.6 827.7,1224.6" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="880.2,1331.6 885.2,1331.6 885.2,1224.6 880.2,1224.6" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="932.7,1331.6 937.8,1331.6 937.8,1224.6 932.7,1224.6" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="985.2,1331.6 990.2,1331.6 990.2,1224.6 985.2,1224.6" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="1037.7,1331.6 1042.8,1331.6 1042.8,1224.6 1037.7,1224.6" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="1090.2,1331.6 1095.2,1331.6 1095.2,1224.6 1090.2,1224.6" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="1142.7,1331.6 1147.8,1331.6 1147.8,1224.6 1142.7,1224.6" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="1190.2,1331.6 1195.2,1331.6 1195.2,1224.6 1190.2,1224.6" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="775.2,1214.5 780.2,1214.5 780.2,1107.5 775.2,1107.5" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="827.7,1214.5 832.8,1214.5 832.8,1107.5 827.7,1107.5" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="880.2,1214.5 885.2,1214.5 885.2,1107.5 880.2,1107.5" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="932.7,1214.5 937.8,1214.5 937.8,1107.5 932.7,1107.5" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="985.2,1214.5 990.2,1214.5 990.2,1107.5 985.2,1107.5" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="1037.7,1214.5 1042.8,1214.5 1042.8,1107.5 1037.7,1107.5" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="1090.2,1214.5 1095.2,1214.5 1095.2,1107.5 1090.2,1107.5" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="1142.7,1214.5 1147.8,1214.5 1147.8,1107.5 1142.7,1107.5" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="1190.2,1214.5 1195.2,1214.5 1195.2,1107.5 1190.2,1107.5" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="775.2,1097.4 780.2,1097.4 780.2,990.4 775.2,990.4" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="827.7,1097.4 832.8,1097.4 832.8,990.4 827.7,990.4" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="880.2,1097.4 885.2,1097.4 885.2,990.4 880.2,990.4" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="932.7,1097.4 937.8,1097.4 937.8,990.4 932.7,990.4" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="985.2,1097.4 990.2,1097.4 990.2,990.4 985.2,990.4" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="1037.7,1097.4 1042.8,1097.4 1042.8,990.4 1037.7,990.4" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="1090.2,1097.4 1095.2,1097.4 1095.2,990.4 1090.2,990.4" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="1142.7,1097.4 1147.8,1097.4 1147.8,990.4 1142.7,990.4" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="1190.2,1097.4 1195.2,1097.4 1195.2,990.4 1190.2,990.4" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="775.2,980.3 780.2,980.3 780.2,873.2 775.2,873.2" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="827.7,980.3 832.8,980.3 832.8,873.2 827.7,873.2" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="880.2,980.3 885.2,980.3 885.2,873.2 880.2,873.2" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="932.7,980.3 937.8,980.3 937.8,873.2 932.7,873.2" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="985.2,980.3 990.2,980.3 990.2,873.2 985.2,873.2" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="1037.7,980.3 1042.8,980.3 1042.8,873.2 1037.7,873.2" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="1090.2,980.3 1095.2,980.3 1095.2,873.2 1090.2,873.2" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="1142.7,980.3 1147.8,980.3 1147.8,873.2 1142.7,873.2" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="1190.2,980.3 1195.2,980.3 1195.2,873.2 1190.2,873.2" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="368.6,1451.3 373.7,1451.3 373.7,1395.7 368.6,1395.7" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="421.1,1451.3 426.2,1451.3 426.2,1395.7 421.1,1395.7" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="473.6,1451.3 478.7,1451.3 478.7,1395.7 473.6,1395.7" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="526.1,1451.3 531.2,1451.3 531.2,1395.7 526.1,1395.7" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="578.6,1451.3 583.7,1451.3 583.7,1395.7 578.6,1395.7" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="631.1,1451.3 636.2,1451.3 636.2,1395.7 631.1,1395.7" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="683.6,1451.3 688.7,1451.3 688.7,1395.7 683.6,1395.7" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<polygon points="736.1,1451.3 741.2,1451.3 741.2,1395.7 736.1,1395.7" fill="#faece7" stroke="#993c1d" stroke-width="0.6"/>
+<circle cx="917.2" cy="1453.8" r="7" fill="white" stroke="#993c1d"/>
+<circle cx="917.2" cy="1336.7" r="7" fill="white" stroke="#993c1d"/>
+<circle cx="917.2" cy="1219.5" r="7" fill="white" stroke="#993c1d"/>
+<circle cx="917.2" cy="1102.4" r="7" fill="white" stroke="#993c1d"/>
+<circle cx="917.2" cy="985.3" r="7" fill="white" stroke="#993c1d"/>
+<circle cx="917.2" cy="868.2" r="7" fill="white" stroke="#993c1d"/>
+<circle cx="1053.2" cy="1453.8" r="7" fill="white" stroke="#993c1d"/>
+<circle cx="1053.2" cy="1336.7" r="7" fill="white" stroke="#993c1d"/>
+<circle cx="1053.2" cy="1219.5" r="7" fill="white" stroke="#993c1d"/>
+<circle cx="1053.2" cy="1102.4" r="7" fill="white" stroke="#993c1d"/>
+<circle cx="1053.2" cy="985.3" r="7" fill="white" stroke="#993c1d"/>
+<circle cx="1053.2" cy="868.2" r="7" fill="white" stroke="#993c1d"/>
+<circle cx="1189.2" cy="1453.8" r="7" fill="white" stroke="#993c1d"/>
+<circle cx="1189.2" cy="1336.7" r="7" fill="white" stroke="#993c1d"/>
+<circle cx="1189.2" cy="1219.5" r="7" fill="white" stroke="#993c1d"/>
+<circle cx="1189.2" cy="1102.4" r="7" fill="white" stroke="#993c1d"/>
+<circle cx="1189.2" cy="985.3" r="7" fill="white" stroke="#993c1d"/>
+<circle cx="1189.2" cy="868.2" r="7" fill="white" stroke="#993c1d"/>
+<circle cx="505.9" cy="1453.8" r="7" fill="white" stroke="#993c1d"/>
+<circle cx="505.9" cy="1393.2" r="7" fill="white" stroke="#993c1d"/>
+<circle cx="640.5" cy="1453.8" r="7" fill="white" stroke="#993c1d"/>
+<circle cx="640.5" cy="1393.2" r="7" fill="white" stroke="#993c1d"/>
+<circle cx="759.5" cy="1453.8" r="7" fill="white" stroke="#993c1d"/>
+<circle cx="759.5" cy="1393.2" r="7" fill="white" stroke="#993c1d"/>
+<text x="985.0" y="839.4" font-size="10" fill="#993c1d" text-anchor="middle">pituuspalkit 2×48×123 (6 linjaa) – laatan päätyyn palkkikengillä/kulmateräksillä</text>
+<text x="985.0" y="1487.8" font-size="10" fill="#993c1d" text-anchor="middle">poikkipalkit 48×123 pituuspalkkien väliin, k500, palkkikengät</text>
+<text x="985.0" y="1514.0" font-size="10" fill="#993c1d" text-anchor="middle">○ = pilarianturat (3 riviä × 6 + kaistan anturat)</text>
+<polyline points="869.5,904.0 974.5,904.0" fill="none" stroke="#0a6e56" stroke-width="1.2"/>
+<polyline points="964.0,897.7 974.5,904.0 964.0,910.3" fill="none" stroke="#0a6e56" stroke-width="1.2"/>
+<text x="922.0" y="894.5" font-size="10" fill="#0a6e56" text-anchor="middle">lautojen suunta</text>
+<polyline points="775.2,792.2 917.2,792.2" fill="none" stroke="#8a6d00" stroke-width="0.7"/>
+<polyline points="775.2,865.7 775.2,792.2" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="768.9,798.5 781.5,785.9" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<polyline points="917.2,865.7 917.2,792.2" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="910.9,798.5 923.5,785.9" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<text x="846.2" y="785.9" font-size="11" fill="#8a6d00" text-anchor="middle">1352</text>
+<polyline points="917.2,792.2 1053.2,792.2" fill="none" stroke="#8a6d00" stroke-width="0.7"/>
+<polyline points="917.2,865.7 917.2,792.2" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="910.9,798.5 923.5,785.9" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<polyline points="1053.2,865.7 1053.2,792.2" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="1046.9,798.5 1059.5,785.9" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<text x="985.2" y="785.9" font-size="11" fill="#8a6d00" text-anchor="middle">1295</text>
+<polyline points="1053.2,792.2 1189.2,792.2" fill="none" stroke="#8a6d00" stroke-width="0.7"/>
+<polyline points="1053.2,865.7 1053.2,792.2" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="1046.9,798.5 1059.5,785.9" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<polyline points="1189.2,865.7 1189.2,792.2" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="1182.9,798.5 1195.5,785.9" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<text x="1121.2" y="785.9" font-size="11" fill="#8a6d00" text-anchor="middle">1295</text>
+<text x="40.0" y="1607.2" font-size="15" fill="#222" text-anchor="start" font-weight="600">3  PÄÄTYNÄKYMÄ keittiön päästä rakennusta kohti</text>
+<polyline points="40.0,1943.0 635.0,1943.0" fill="none" stroke="#555" stroke-width="1.2"/>
+<polygon points="179.0,1917.5 179.0,1731.9 363.0,1655.7 547.0,1731.9 547.0,1917.5" fill="#f6f6f6" stroke="#555" stroke-width="0.6"/>
+<polyline points="110.6,1741.6 363.0,1637.0 592.5,1732.1" fill="none" stroke="#555" stroke-width="1.0"/>
+<polyline points="110.6,1752.6 363.0,1648.0 592.5,1743.1" fill="none" stroke="#555" stroke-width="1.0"/>
+<polygon points="122.0,1917.5 320.5,1917.5 320.5,1903.5 122.0,1903.5" fill="#eeeeee" stroke="#555" stroke-width="0.6"/>
+<polygon points="68.9,1930.3 122.0,1930.3 122.0,1917.5 68.9,1917.5" fill="#faeeda" stroke="#8a6d00" stroke-width="0.8"/>
+<polygon points="122.0,1930.3 547.0,1930.3 547.0,1917.5 122.0,1917.5" fill="#e1f5ee" stroke="#0a6e56" stroke-width="1.0"/>
+<polyline points="133.5,1746.5 363.0,1651.5 592.5,1746.5" fill="none" stroke="#3c3489" stroke-width="1.4"/>
+<polyline points="133.5,1759.8 363.0,1664.7 592.5,1759.8" fill="none" stroke="#3c3489" stroke-width="1.4"/>
+<polygon points="179.0,1747.8 188.8,1747.8 188.8,1736.4 179.0,1736.4" fill="#cecbf6" stroke="#3c3489" stroke-width="1.0"/>
+<polygon points="179.0,1917.5 188.8,1917.5 188.8,1747.8 179.0,1747.8" fill="#9fe1cb" stroke="#0a6e56" stroke-width="1.0"/>
+<polygon points="268.5,1718.4 278.3,1718.4 278.3,1699.3 268.5,1699.3" fill="#cecbf6" stroke="#3c3489" stroke-width="1.0"/>
+<polygon points="268.5,1917.5 278.3,1917.5 278.3,1718.4 268.5,1718.4" fill="#9fe1cb" stroke="#0a6e56" stroke-width="1.0"/>
+<polygon points="358.1,1681.3 367.9,1681.3 367.9,1662.2 358.1,1662.2" fill="#cecbf6" stroke="#3c3489" stroke-width="1.0"/>
+<polygon points="358.1,1917.5 367.9,1917.5 367.9,1681.3 358.1,1681.3" fill="#9fe1cb" stroke="#0a6e56" stroke-width="1.0"/>
+<polygon points="447.7,1718.4 457.5,1718.4 457.5,1699.3 447.7,1699.3" fill="#cecbf6" stroke="#3c3489" stroke-width="1.0"/>
+<polygon points="447.7,1917.5 457.5,1917.5 457.5,1718.4 447.7,1718.4" fill="#9fe1cb" stroke="#0a6e56" stroke-width="1.0"/>
+<polygon points="537.2,1747.8 547.0,1747.8 547.0,1736.4 537.2,1736.4" fill="#cecbf6" stroke="#3c3489" stroke-width="1.0"/>
+<polygon points="537.2,1917.5 547.0,1917.5 547.0,1747.8 537.2,1747.8" fill="#9fe1cb" stroke="#0a6e56" stroke-width="1.0"/>
+<polygon points="183.9,1917.5 542.1,1917.5 542.1,1832.5 183.9,1832.5" fill="none" stroke="#0a6e56" stroke-width="0.8"/>
+<polyline points="183.9,1906.9 542.1,1906.9" fill="none" stroke="#0a6e56" stroke-width="0.3"/>
+<polyline points="183.9,1896.2 542.1,1896.2" fill="none" stroke="#0a6e56" stroke-width="0.3"/>
+<polyline points="183.9,1885.6 542.1,1885.6" fill="none" stroke="#0a6e56" stroke-width="0.3"/>
+<polyline points="183.9,1875.0 542.1,1875.0" fill="none" stroke="#0a6e56" stroke-width="0.3"/>
+<polyline points="183.9,1864.4 542.1,1864.4" fill="none" stroke="#0a6e56" stroke-width="0.3"/>
+<polyline points="183.9,1853.8 542.1,1853.8" fill="none" stroke="#0a6e56" stroke-width="0.3"/>
+<polyline points="183.9,1843.1 542.1,1843.1" fill="none" stroke="#0a6e56" stroke-width="0.3"/>
+<text x="363.0" y="1822.3" font-size="10" fill="#0a6e56" text-anchor="middle">alaosa umpi ~1000</text>
+<text x="218.5" y="1898.0" font-size="9" fill="#555" text-anchor="middle">terassi +0.165</text>
+<polyline points="44.2,1917.5 95.2,1917.5" fill="none" stroke="#0a6e56" stroke-width="0.6"/>
+<text x="99.5" y="1920.0" font-size="10" fill="#0a6e56" text-anchor="start">±0.000</text>
+<text x="363.0" y="1629.3" font-size="10" fill="#3c3489" text-anchor="middle">keittiökaton yläpinta harjalla +3130 (rako 40 nyk. katon alapintaan)</text>
+<text x="194.1" y="1763.1" font-size="10" fill="#3c3489" text-anchor="start">vapaa korkeus reunapalkin alla ≈ 1996</text>
+<polyline points="635.0,1917.5 635.0,1651.5" fill="none" stroke="#8a6d00" stroke-width="0.7"/>
+<polyline points="592.5,1917.5 635.0,1917.5" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="629.9,1922.6 640.1,1912.4" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<polyline points="592.5,1651.5 635.0,1651.5" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="629.9,1656.5 640.1,1646.3" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<text x="628.2" y="1784.5" font-size="11" fill="#8a6d00" text-anchor="middle" transform="rotate(-90 628.2 1784.5)">+3130</text>
+<polyline points="68.9,1977.0 547.0,1977.0" fill="none" stroke="#8a6d00" stroke-width="0.7"/>
+<polyline points="68.9,1917.5 68.9,1977.0" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="63.8,1982.1 74.0,1971.9" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<polyline points="547.0,1917.5 547.0,1977.0" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="541.9,1982.1 552.1,1971.9" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<text x="308.0" y="1971.9" font-size="11" fill="#8a6d00" text-anchor="middle">5625</text>
+<text x="670.0" y="1610.7" font-size="15" fill="#222" text-anchor="start" font-weight="600">4  SIVUNÄKYMÄ etusivulta (SIVU 2 -suunta)</text>
+<polyline points="670.0,1855.6 1407.8,1855.6" fill="none" stroke="#555" stroke-width="1.2"/>
+<polygon points="699.1,1837.0 1062.5,1837.0 1062.5,1712.4 699.1,1712.4" fill="#f6f6f6" stroke="#555" stroke-width="1.0"/>
+<polygon points="676.2,1712.4 1085.4,1712.4 1085.4,1703.7 676.2,1703.7" fill="none" stroke="#555" stroke-width="1.0"/>
+<polyline points="676.2,1703.7 676.2,1632.4 1085.4,1632.4 1085.4,1703.7" fill="none" stroke="#555" stroke-width="1.0"/>
+<polyline points="1085.4,1644.2 1110.8,1644.2 1110.8,1719.2 851.4,1719.2" fill="none" stroke="#555" stroke-width="0.8"/>
+<polygon points="876.5,1837.0 1104.1,1837.0 1104.1,1826.8 876.5,1826.8" fill="#eeeeee" stroke="#555" stroke-width="0.8"/>
+<polygon points="864.1,1846.4 1352.1,1846.4 1352.1,1837.0 864.1,1837.0" fill="#faeeda" stroke="#8a6d00" stroke-width="0.8"/>
+<polyline points="1110.8,1712.3 1383.1,1712.3 1383.1,1642.9 1110.8,1642.9" fill="none" stroke="#3c3489" stroke-width="1.4"/>
+<polyline points="1110.8,1712.3 1110.8,1642.9" fill="none" stroke="#3c3489" stroke-width="0.6" stroke-dasharray="4 3"/>
+<polygon points="1073.0,1713.2 1358.3,1713.2 1358.3,1704.9 1073.0,1704.9" fill="#cecbf6" stroke="#3c3489" stroke-width="1.0"/>
+<polygon points="1104.1,1837.0 1111.3,1837.0 1111.3,1713.2 1104.1,1713.2" fill="#9fe1cb" stroke="#0a6e56" stroke-width="1.0"/>
+<polygon points="1184.4,1837.0 1191.5,1837.0 1191.5,1713.2 1184.4,1713.2" fill="#9fe1cb" stroke="#0a6e56" stroke-width="1.0"/>
+<polygon points="1264.7,1837.0 1271.8,1837.0 1271.8,1713.2 1264.7,1713.2" fill="#9fe1cb" stroke="#0a6e56" stroke-width="1.0"/>
+<polygon points="1345.0,1837.0 1352.1,1837.0 1352.1,1713.2 1345.0,1713.2" fill="#9fe1cb" stroke="#0a6e56" stroke-width="1.0"/>
+<polygon points="1111.3,1837.0 1345.0,1837.0 1345.0,1775.0 1111.3,1775.0" fill="none" stroke="#0a6e56" stroke-width="0.6" stroke-dasharray="5 3"/>
+<text x="1228.0" y="1767.6" font-size="9" fill="#0a6e56" text-anchor="middle">takaseinän umpiosa taustalla</text>
+<text x="1113.3" y="1635.5" font-size="9" fill="#555" text-anchor="start">kuistin katto säilyy</text>
+<text x="880.8" y="1775.0" font-size="14" fill="#555" text-anchor="middle" font-weight="600">SAUNA</text>
+<polyline points="1104.1,1877.3 1352.1,1877.3" fill="none" stroke="#8a6d00" stroke-width="0.7"/>
+<polyline points="1104.1,1837.0 1104.1,1877.3" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="1100.4,1881.0 1107.8,1873.6" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<polyline points="1352.1,1837.0 1352.1,1877.3" fill="none" stroke="#8a6d00" stroke-width="0.4"/>
+<polyline points="1348.4,1881.0 1355.8,1873.6" fill="none" stroke="#8a6d00" stroke-width="0.9"/>
+<text x="1228.1" y="1873.6" font-size="11" fill="#8a6d00" text-anchor="middle">4000</text>
+<text x="1388.1" y="1714.8" font-size="9" fill="#3c3489" text-anchor="start">räystäs +2012</text>
+<rect x="1360" y="889" width="22" height="13" fill="#e1f5ee" stroke="#0a6e56"/>
+<text x="1390" y="900" font-size="12" fill="#222">uusi kesäkeittiö</text>
+<rect x="1360" y="911" width="22" height="13" fill="#faeeda" stroke="#8a6d00"/>
+<text x="1390" y="922" font-size="12" fill="#222">porraskaista ±0.000</text>
+<rect x="1360" y="933" width="22" height="13" fill="#eeeeee" stroke="#555"/>
+<text x="1390" y="944" font-size="12" fill="#222">nykyinen, säilyy</text>
+<rect x="1360" y="955" width="22" height="13" fill="none" stroke="#c0392b"/>
+<text x="1390" y="966" font-size="12" fill="#222">puretaan</text>
+<rect x="1360" y="977" width="22" height="13" fill="#cecbf6" stroke="#3c3489"/>
+<text x="1390" y="988" font-size="12" fill="#222">kattorakenne</text>
+<rect x="1360" y="999" width="22" height="13" fill="#f5c4b3" stroke="#993c1d"/>
+<text x="1390" y="1010" font-size="12" fill="#222">lattiarunko</text>
+<rect x="1360" y="1021" width="22" height="13" fill="white" stroke="#d4537e"/>
+<text x="1390" y="1032" font-size="12" fill="#222">avoin kysymys</text>
+</svg>
